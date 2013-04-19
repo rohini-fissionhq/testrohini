@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6831A8AD16FC3E6700E90E85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6831A8AC16FC3E6700E90E85 /* UIKit.framework */; };
+		6831A8AF16FC3E6700E90E85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6831A8AE16FC3E6700E90E85 /* Foundation.framework */; };
+		6831A8B116FC3E6700E90E85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6831A8B016FC3E6700E90E85 /* CoreGraphics.framework */; };
+		6831A8B716FC3E6700E90E85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6831A8B516FC3E6700E90E85 /* InfoPlist.strings */; };
+		6831A8B916FC3E6700E90E85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6831A8B816FC3E6700E90E85 /* main.m */; };
+		6831A8BD16FC3E6700E90E85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6831A8BC16FC3E6700E90E85 /* AppDelegate.m */; };
+		6831A8BF16FC3E6700E90E85 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6831A8BE16FC3E6700E90E85 /* Default.png */; };
+		6831A8C116FC3E6700E90E85 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6831A8C016FC3E6700E90E85 /* Default@2x.png */; };
+		6831A8C316FC3E6700E90E85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6831A8C216FC3E6700E90E85 /* Default-568h@2x.png */; };
+		6831A8C616FC3E6700E90E85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6831A8C516FC3E6700E90E85 /* ViewController.m */; };
+		6831A8C916FC3E6700E90E85 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6831A8C716FC3E6700E90E85 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6831A8A916FC3E6700E90E85 /* EditableTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EditableTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6831A8AC16FC3E6700E90E85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6831A8AE16FC3E6700E90E85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6831A8B016FC3E6700E90E85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6831A8B416FC3E6700E90E85 /* EditableTv-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EditableTv-Info.plist"; sourceTree = "<group>"; };
+		6831A8B616FC3E6700E90E85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6831A8B816FC3E6700E90E85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6831A8BA16FC3E6700E90E85 /* EditableTv-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EditableTv-Prefix.pch"; sourceTree = "<group>"; };
+		6831A8BB16FC3E6700E90E85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6831A8BC16FC3E6700E90E85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6831A8BE16FC3E6700E90E85 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6831A8C016FC3E6700E90E85 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6831A8C216FC3E6700E90E85 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6831A8C416FC3E6700E90E85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6831A8C516FC3E6700E90E85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6831A8C816FC3E6700E90E85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6831A8A616FC3E6700E90E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6831A8AD16FC3E6700E90E85 /* UIKit.framework in Frameworks */,
+				6831A8AF16FC3E6700E90E85 /* Foundation.framework in Frameworks */,
+				6831A8B116FC3E6700E90E85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6831A8A016FC3E6700E90E85 = {
+			isa = PBXGroup;
+			children = (
+				6831A8B216FC3E6700E90E85 /* EditableTv */,
+				6831A8AB16FC3E6700E90E85 /* Frameworks */,
+				6831A8AA16FC3E6700E90E85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6831A8AA16FC3E6700E90E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6831A8A916FC3E6700E90E85 /* EditableTv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6831A8AB16FC3E6700E90E85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6831A8AC16FC3E6700E90E85 /* UIKit.framework */,
+				6831A8AE16FC3E6700E90E85 /* Foundation.framework */,
+				6831A8B016FC3E6700E90E85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6831A8B216FC3E6700E90E85 /* EditableTv */ = {
+			isa = PBXGroup;
+			children = (
+				6831A8BB16FC3E6700E90E85 /* AppDelegate.h */,
+				6831A8BC16FC3E6700E90E85 /* AppDelegate.m */,
+				6831A8C416FC3E6700E90E85 /* ViewController.h */,
+				6831A8C516FC3E6700E90E85 /* ViewController.m */,
+				6831A8C716FC3E6700E90E85 /* ViewController.xib */,
+				6831A8B316FC3E6700E90E85 /* Supporting Files */,
+			);
+			path = EditableTv;
+			sourceTree = "<group>";
+		};
+		6831A8B316FC3E6700E90E85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6831A8B416FC3E6700E90E85 /* EditableTv-Info.plist */,
+				6831A8B516FC3E6700E90E85 /* InfoPlist.strings */,
+				6831A8B816FC3E6700E90E85 /* main.m */,
+				6831A8BA16FC3E6700E90E85 /* EditableTv-Prefix.pch */,
+				6831A8BE16FC3E6700E90E85 /* Default.png */,
+				6831A8C016FC3E6700E90E85 /* Default@2x.png */,
+				6831A8C216FC3E6700E90E85 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6831A8A816FC3E6700E90E85 /* EditableTv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6831A8CC16FC3E6800E90E85 /* Build configuration list for PBXNativeTarget "EditableTv" */;
+			buildPhases = (
+				6831A8A516FC3E6700E90E85 /* Sources */,
+				6831A8A616FC3E6700E90E85 /* Frameworks */,
+				6831A8A716FC3E6700E90E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EditableTv;
+			productName = EditableTv;
+			productReference = 6831A8A916FC3E6700E90E85 /* EditableTv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6831A8A116FC3E6700E90E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "SUBRAHMANYAM NUKALA";
+			};
+			buildConfigurationList = 6831A8A416FC3E6700E90E85 /* Build configuration list for PBXProject "EditableTv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6831A8A016FC3E6700E90E85;
+			productRefGroup = 6831A8AA16FC3E6700E90E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6831A8A816FC3E6700E90E85 /* EditableTv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6831A8A716FC3E6700E90E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6831A8B716FC3E6700E90E85 /* InfoPlist.strings in Resources */,
+				6831A8BF16FC3E6700E90E85 /* Default.png in Resources */,
+				6831A8C116FC3E6700E90E85 /* Default@2x.png in Resources */,
+				6831A8C316FC3E6700E90E85 /* Default-568h@2x.png in Resources */,
+				6831A8C916FC3E6700E90E85 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6831A8A516FC3E6700E90E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6831A8B916FC3E6700E90E85 /* main.m in Sources */,
+				6831A8BD16FC3E6700E90E85 /* AppDelegate.m in Sources */,
+				6831A8C616FC3E6700E90E85 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6831A8B516FC3E6700E90E85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6831A8B616FC3E6700E90E85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6831A8C716FC3E6700E90E85 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6831A8C816FC3E6700E90E85 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6831A8CA16FC3E6800E90E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6831A8CB16FC3E6800E90E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6831A8CD16FC3E6800E90E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EditableTv/EditableTv-Prefix.pch";
+				INFOPLIST_FILE = "EditableTv/EditableTv-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6831A8CE16FC3E6800E90E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EditableTv/EditableTv-Prefix.pch";
+				INFOPLIST_FILE = "EditableTv/EditableTv-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6831A8A416FC3E6700E90E85 /* Build configuration list for PBXProject "EditableTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6831A8CA16FC3E6800E90E85 /* Debug */,
+				6831A8CB16FC3E6800E90E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6831A8CC16FC3E6800E90E85 /* Build configuration list for PBXNativeTarget "EditableTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6831A8CD16FC3E6800E90E85 /* Debug */,
+				6831A8CE16FC3E6800E90E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6831A8A116FC3E6700E90E85 /* Project object */;
+}
